@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.clear{
+    clear: both;
+}
+.container{
+    width: 1200px;
+    margin:50px auto;
+}
+.container .header{
+    width: 100%;
+    height: 100px;
+    background-color: #ddd;
+    margin-bottom: 30px;
+}
+.container .sec-main{
+    width: 100%;
+    height: 400px;
+    margin: auto;
+}
+.card {
+    width: 100%;
+    height: 470px;
+    background-color: lightgreen;
+    text-align: center;
+    align-content: center;
+}
+div[class*=col-]{
+    margin-bottom: 15px;
+    padding: 15px;
+    float: left;
+}
+.container .sec-main .col-3{
+    width: 24%;
+    background-color: #ddd;
+    
+}
+.container .sec-main .col-6-out{
+    width: 48%;
+    background-color: #ddd;
+    margin: 0px 15px;
+    
+}
+.container .sec-main .row1 .col-4{
+    width: 100%;
+    height: 150px;
+    background-color: lightgreen;
+    text-align: center;
+    align-content: center;
+}
+.container .sec-main .row2 .col-9{
+    width: 70%;
+    height: 100px;
+    background-color: lightgreen;
+    text-align: center;
+    align-content: center;
+    margin-right: 15px;
+}
+.container .sec-main .row2 .col-3{
+    width: 24%;
+    height: 100px;
+    background-color: lightgreen;
+    text-align: center;
+    align-content: center;
+}
+.container .sec-main .row2 .col-6{
+    width: 47.25%;
+    height: 250px;
+    background-color: lightgreen;
+    text-align: center;
+    align-content: center;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+.container .sec-main .row2 .col-4{
+    width: 30.5%;
+    height: 100px;
+    background-color: lightgreen;
+    text-align: center;
+    align-content: center;
+    margin-right: 15px;
+}
+.container .sec-main .row3 .col-4{
+    width: 100%;
+    height: 150px;
+    background-color: lightgreen;
+    text-align: center;
+    align-content: center;
+}
+.container .sec-main .row3 .col-8{
+    width: 100%;
+    height: 310px;
+    background-color: lightgreen;
+    text-align: center;
+    align-content: center;
+}
+.container .footer{
+    width: 100%;
+    height: 100px;
+    background-color: #ddd;
+    margin: auto;
+    margin-top: 150px;
+}
